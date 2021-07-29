@@ -1,0 +1,7 @@
+cara run proyek ini
+1. buka proyek ini di vscode
+2. kemudian buat database dengan nama worldwide2 di phpmyadmin, dan ubahlah nama database default-nya di .env menjadi sesuai yg ada di database 
+3. jalankan:
+	php artisan migrate
+4. jalankan php artisan serve
+5. copy-kan sql yang ada di worldwide2.sql untuk create product dan paste di sql phpmyadmin anda
